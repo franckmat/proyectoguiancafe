@@ -1,0 +1,41 @@
+*{margin:0;
+padding:0;}
+ 
+h1{
+    font-weight: 200;
+font-style: italic;
+font-size: 80px;
+font-family: 'MonteCarlo';
+text-align: center;
+text-align: right;
+background-color: blueviolet;
+
+}
+p{
+text-align: center;
+line-height: 2;
+text-decoration: overline;
+text-decoration: none; /* quitarle el underline a los links */
+background-color: brown;
+}
+
+ul{list-style-type: none;}
+li{list-style-type: none;}/* quita los puntos en la lista */
+
+ol{list-style-type: upper-alpha;}
+
+body{background-color: #FFC745;
+    background-image: url(guacafelogo1.png);
+height: 400px;
+width: 100px;
+background-repeat: no-repeat;
+background-size: auto;
+}
+/* importante le da color al fondo de la pagina web*/
+header{background-image: url(guacafelogo1.png);
+height: 80px;}
+
+/* googlefont trae los estilos en font family */
+/* Comentario */
+/* Comentario */
+

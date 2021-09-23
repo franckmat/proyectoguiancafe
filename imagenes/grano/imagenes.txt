@@ -1,0 +1,1 @@
+.gallery-container>.gallery__item*10>img.gallery__img[src="imagenes/grano/grano$.JPEG"]+h2.gallery__title{Imagen $}
