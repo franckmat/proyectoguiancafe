@@ -7,10 +7,12 @@
     <title>GUIANCAFE</title>
     
     <link rel="stylesheet" href="css/Estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
 </head>
 <body>
     <input type="checkbox" id="btn-nav" class="checkbox">
-    <Header class="Header">
+    <header class="Header">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
@@ -21,13 +23,13 @@
             <label for="btn-nav" class="btn-label">
                 <div class="header-button"></div>
               </label>
-    </Header>
+    </header>
             <nav class="menu">
                 
                 <ul> 
                     <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="Cafemolido.html" class="nav-link">café Molido</a></li>
-                    <li class="nav-item"><a href="cafeengrano.html" class="nav-link">café en grano</a></li>
+                    <li class="nav-item"><a href="Cafemolido.html" class="nav-link">Café Molido</a></li>
+                    <li class="nav-item"><a href="cafeengrano.html" class="nav-link">Café en grano</a></li>
                     <li class="nav-item"><a href="Nosotros.html" class="nav-link">Nosotros</a></li>
                     <li class="nav-item"><a href="contactus.html" class="nav-link">Contacto</a></li>
                 </ul>
@@ -37,112 +39,175 @@
 
 
         </div>
-        
-<div>
-    <h2><strong> SLOGAN</strong></h2>
-    <h3>Producción hecha con amor</h3>
-    <h2><strong>HISTORIA</strong></h2>
-    <h4>Somos la familia León Castañeda, que llegó en el año de 1858, proveniente del sur oeste antioqueño, al entonces Gran Caldas, haciendo parte <br> 
-    de un grupo de colonos que viajaron a lomo de mula, para abrir montaña y cultivar la tierra. Se radicaron en la entonces Vereda el Caimo; <br>
-     con el paso de los años, y después de cuatro generaciones, el legado de la tierra y el conocimiento de producción y beneficio del café, se convierten <br>
-      en una tradición, hoy expresada en una taza de café de origen diferenciado, un producto natural, resultado de buenas prácticas con el ambiente <br>
-       que ofrece a sus consumidores, una taza de café con aromas  y notas  de ciruelas y trufas de chocolate, con un perfil base muy floral y cítrico, <br>
-        conocido como GUIANCAFE QUINDIO, nombre que surge de las primeras letras de los nombres de los abuelos Guillermo y Ana y del nombre <br> de la finca
-         La Carmelita, lugar donde se produce. Ubicada en el corregimiento el Caimo, del municipio de Armenia, departamento <br> del Quindío Colombia, 
-          a una altura de 1.300 metros sobre el nivel del mar y sembrada en café variedad castillo, bajo sombrío de árboles<br> nativos como: caimo, 
-           nogal cafetero y guamo machete. GUIANCAFE QUINDIO, busca ser reconocido a nivel Internacional, como un café <br>de taza limpia,  de gran calidad y aroma.</h4>
-    <h2><strong>MISIÓN</strong></h2>
-    <h4> Somos la familia Leon Castañeda, productores y comercializadores, de café en el departamento del Quindío, que busca posicionar su producto <br> GUIANCAFE QUINDIO, ofreciendo una de mejores y más suaves tazas de café de origen.</h4>
-  </div>
-
-
-
-
-
-
-
-    <footer>
-      <div class="container-footer-all">
-        
-        <div class="container-body">
-
-            <div class="colum1">
-                <h1>Visión</h1>
-
-                <p>En el año 2030 GUIANCAFE QUINDIO, 
-                  será reconocido como un producto de origen, 
-                  de producción limpia, producido por la cuarta
-                   generación de la familia Leon Castañeda, 
-                   conservando el amor por la tierra y 
-                   el cuidado en la producción de un café 
-                   premium de gran calidad.</p>
-
-            </div>
-
-            <div class="colum2">
-
-                <h1>Redes Sociales</h1>
-
-                <div class="row">
-                  <a href="https://instagram.com/guacafequindio?utm_medium=copy_link"><img src="imagenes/instagram logo.png" alt="Logo instagram"></a>
-                    <label>Siguenos en Instagram</label>
+        <div id="table-responsive">   
+          <table>
+            <tr id="row1">
+                <th><h2>Nosotros</h2></th>
+                <th> <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="exampleModalToggleLabel">HISTORIA</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Somos la familia León Castañeda, que llegó en el año de 1858, proveniente del sur oeste antioqueño, al entonces Gran Caldas, haciendo parte  
+                            de un grupo de colonos que viajaron a lomo de mula, para abrir montaña y cultivar la tierra. Se radicaron en la entonces Vereda el Caimo; 
+                            con el paso de los años, y después de cuatro generaciones, el legado de la tierra y el conocimiento de producción y beneficio del café, se convierten 
+                            en una tradición, hoy expresada en una taza de café de origen diferenciado, un producto natural, resultado de buenas prácticas con el ambiente 
+                            que ofrece a sus consumidores, una taza de café con aromas  y notas  de ciruelas y trufas de chocolate, con un perfil base muy floral y cítrico, 
+                            conocido como GUIANCAFE QUINDIO...
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Continuar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="row">
-                  <a href="https://vm.tiktok.com/ZMd72q7bU/"><img src="imagenes/tik tok logo.png" alt="Logo tik tok"></a>    
-                    <label>Siguenos en TikTok</label>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="exampleModalToggleLabel2">HISTORIA</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...nombre que surge de las primeras letras de los nombres de los abuelos Guillermo y Ana y del nombre  de la finca
+                            La Carmelita, lugar donde se produce. Ubicada en el corregimiento el Caimo, del municipio de Armenia, departamento  del Quindío Colombia, 
+                            a una altura de 1.300 metros sobre el nivel del mar y sembrada en café variedad castillo, bajo sombrío de árboles nativos como: caimo, 
+                            nogal cafetero y guamo machete. GUIANCAFE QUINDIO, busca ser reconocido a nivel Internacional, como un café de taza limpia,  de gran calidad y aroma.
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Volver</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                
+                <a class="btn btn-brown btn-outline-dark" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><h2>HISTORIA</h2></a>
 
-
-            </div>
-
-            <div class="colum3">
-
-                <h1>Informacion Contactos</h1>
-
-                <div class="row2">
-                    <img src="imagenes/house.png">
-                    <label>Finca la Carmelita
-                      Vereda el Caimo
-                      Armenia, QUINDIO
-                    </label>
-                </div>
-
-                <div class="row2">
-                    <img src="imagenes/smartphone.png">
-                    <label>+57 318 379 5185</label>
-                </div>
-
-                <div class="row2">
-                    <img src="imagenes/contact.png">
-                     <label>madelcale@hotmail.com</label>
-                </div>
-
-            </div>
-
+               </th>
+                <th><li class="list-group-item">  <div id="Slogan">
+                  <div class="dropdown">
+                      <button class="btn btn-brown btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          <h2> SLOGAN</h2>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#"><h3>Producción hecha con amor</h3></a></li></th>
+                <th><li class="list-group-item"><div id="Mision">
+                  <div class="modal fade" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h2 class="modal-title" id="exampleModalToggleLabel">MISIÓN</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <h3>Somos la familia Leon Castañeda, productores y comercializadores, de café en el departamento del Quindío, 
+                              que busca posicionar su producto GUIANCAFE QUINDIO, ofreciendo una de mejores y más suaves tazas de café de origen.
+                              </h3>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="btn btn-brown btn-outline-dark" data-bs-toggle="modal" href="#exampleModalToggle1" role="button"><h2>MISIÓN</h2></a>
+              
+              
+          </div></li></th>
+            </tr>
+          </table>
         </div>
-    
-    </div>
-    
-    <div class="container-footer">
-           <div class="footer">
-                <div class="copyright">
-                    © 2021 Todos los Derechos Reservados | 
-                </div>
 
-                <div class="information">
-                    <a href="Nosotros.html">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
-                </div>
-            </div>
+        
 
-        </div> 
-       
+
+<footer>
+    <div class="container-footer-all">
       
-      
+      <div class="container-body">
+
+          <div class="colum1">
+              <h2>Visión</h2>
+
+              <p>En el año 2030 GUIANCAFE QUINDIO, 
+                será reconocido como un producto de origen, 
+                de producción limpia, producido por la cuarta
+                 generación de la familia Leon Castañeda, 
+                 conservando el amor por la tierra y 
+                 el cuidado en la producción de un café 
+                 premium de gran calidad.</p>
+
+          </div>
+
+          <div class="colum2">
+
+              <h2>Redes Sociales</h2>
+
+              <div class="row">
+                <a href="https://instagram.com/guacafequindio?utm_medium=copy_link"><img src="imagenes/instagram logo.png" alt="Logo instagram"></a>
+                  <label>Siguenos en Instagram</label>
+              </div>
+              <div class="row">
+                <a href="https://vm.tiktok.com/ZMd72q7bU/"><img src="imagenes/tik tok logo.png" alt="Logo tik tok"></a>    
+                  <label>Siguenos en TikTok</label>
+              </div>
+              
+
+
+          </div>
+
+          <div class="colum3">
+
+              <h2>Informacion Contactos</h2>
+
+              <div class="row2">
+                  <img src="imagenes/house.png">
+                  <label>Finca la Carmelita
+                    Vereda el Caimo
+                    Armenia, QUINDIO
+                  </label>
+              </div>
+
+              <div class="row2">
+                  <img src="imagenes/smartphone.png">
+                  <label>+57 318 379 5185</label>
+              </div>
+
+              <div class="row2">
+                  <img src="imagenes/contact.png">
+                   <label>madelcale@hotmail.com</label>
+              </div>
+
+          </div>
+
+      </div>
+  
+  </div>
+  
+  <div class="container-footer">
+         <div class="footer">
+              <div class="copyright">
+                <p> © 2021 Todos los Derechos Reservados | </p> 
+              </div>
+
+              <div class="information">
+                  <a href="Nosotros.html">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+              </div>
+          </div>
+
+      </div> 
      
     
-    </footer>
+    
+   
+  
+  </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
 </body>
 </html>

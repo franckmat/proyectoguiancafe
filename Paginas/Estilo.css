@@ -1,15 +1,20 @@
 h1{ color: #7f5539; }
 p{color: #180b03;}
-h2{color: #9c6644;}
+h2{color: #9c6644; font-weight: bold ;}
 li{color: #180b03;}
 h3{color: black;}
 h4{color: #9a031e;}
+h5{color: #C7C7C7;}
+label{color: rgb(180, 178, 178);}
 *{margin: 0 auto;
 padding: 0 auto;}
 
 
 body {
-    background: #d1d1d1;
+    background: #313131;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
   .checkbox {
     display: none;
@@ -33,6 +38,7 @@ header{
     background-image: url(fondo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .Container-total {
@@ -278,4 +284,232 @@ footer{
     }
 }
 
-<!-- colores los encuentro en https://coolors.co/palettes/trending --->
+section{
+    
+    width: 100%;
+
+}
+.div #imagenCafe {
+    display: flexbox;
+ 
+ width: 100%;
+
+}
+img{
+height: auto;
+width: 100%; 
+object-fit: cover;
+
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 150px;
+    padding: 20px;
+    grid-gap: 10px;
+    margin: 0%;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__item{position: relative;}
+
+.gallery__title {position:absolute;
+bottom: 0;
+color: #d1d1d1;
+background: linear-gradient(rgba(255, 255, 255, 0.608),rgba(0, 0, 0, 0.793));
+width: 100%;
+margin: 0;
+padding: 10px;
+}
+
+.gallery__item:nth-child(2){
+grid-row-start: span 2 ;
+}
+
+.gallery__item:nth-child(4){
+    grid-row-start: span 2 ;
+    }
+
+    .gallery__item:nth-child(8){
+        grid-row-start: span 2 ;
+        }
+        .gallery__item:nth-child(1){
+            grid-column-start: span 2 ;
+            }
+
+            .gallery__item:nth-child(6){
+                grid-row-start: span 2 ;
+                }        
+
+@media (min-width:768px) {
+.gallery-container {
+grid-template-columns: repeat(4, 1fr);
+width: 90%;
+margin: auto;
+}
+.gallery__item:nth-child(7){
+    grid-row-start: span 2 ;
+    }
+    
+    .gallery__item:nth-child(2){
+        grid-row-start: span 2 ;
+        }
+}
+
+#main-container {
+    margin: 50px auto;
+    width: 95%;
+    
+}
+table{
+width: 100%;
+background-color: white;
+text-align: left;
+display: flex;
+justify-content: center;
+font-size: 20px;
+height: auto;
+}
+
+th, td{
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding: 30px;
+}
+#row1{
+    background-color: saddlebrown;
+    color: white;
+    border-bottom: solid 5px rgba(0, 0, 0, 0.793);
+}
+
+#Nosotros{
+width: auto;
+margin: 5px;
+padding: 15px;
+display: flex;
+align-items:center;
+font-size: 25px;
+flex-direction:column;
+
+}
+
+#Historia{
+padding-bottom: 20px;
+    
+    }
+.col-md{
+width: 250px;
+height: auto;
+
+
+
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: saddlebrown;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid saddlebrown;
+}
+
+.contact-form form button {
+    background: saddlebrown;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #dcf02d;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+    body {
+        padding: 0 ;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}
+*{margin: 0 auto;
+    padding: 0 auto;}
+  body{padding: 0;
+background-color: #202020;} 
+  
+  .dropdown{
+    padding: 0%;
+    margin: 0%;
+
+  }
+
+<!-- colores los encuentro en https://coolors.co/palettes/trending /--->
